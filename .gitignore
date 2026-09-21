@@ -1,0 +1,19 @@
+# .NET build output. These leak the building machine's paths -- obj/*.nuget.g.props and
+# project.assets.json embed the absolute NuGet cache path, which includes a username.
+bin/
+obj/
+*.user
+*.suo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vs/
+.vscode/
+.idea/
+*.swp
+.DS_Store

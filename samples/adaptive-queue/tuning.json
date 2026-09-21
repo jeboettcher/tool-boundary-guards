@@ -1,0 +1,8 @@
+{
+  "start_limit": 1,
+  "max_limit": 16,
+  "decrease_factor": 0.5,
+  "backoff_cooldown_ms": 100,
+  "retry_floor_ms": 20,
+  "retry_ceiling_ms": 80
+}
